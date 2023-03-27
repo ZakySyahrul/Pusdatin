@@ -1,0 +1,129 @@
+      /* table {
+       
+        width: 100%;
+      }
+
+      th,
+      td {
+        text-align: left;
+        padding: 8px;
+        background-color: #5B98C5;
+
+      }
+
+      tr:nth-child(even) {
+        background-color: aqua;
+      }
+      table {
+        border-collapse: collapse;
+        width: 100%;
+      }
+
+      th,
+      td {
+        text-align: left;
+        padding: 8px;
+        background-color: #5B98C5;
+
+      }
+
+      tr:nth-child(even) {
+        background-color: aqua;
+      }
+      .row {
+        border: 1px solid black;
+    
+      }
+    
+      .box {
+        padding: 5px;
+        background: white;
+    
+      }
+    
+      a:link {
+        color: white;
+        background-color: transparent;
+        text-decoration: none;
+      }
+      */
+      body {
+        padding-top: 56px;
+      }
+    
+      .navbarwelcome {
+        position: absolute;
+        top: 0;
+        height: 60px;
+        width: 100%;
+      }
+    
+      .carousel-container {
+        border-top: 2px solid #000;
+        border-bottom: 2px solid #000;
+        margin-top: 20px;
+        padding: 20px 0;
+    
+      }
+    
+      .carousel-item img {
+        width: 100%;
+        height: 400px;
+        object-fit: cover;
+      }
+    
+      .row {
+        border: none;
+      }
+    
+      a {
+        color: black;
+        /* warna hitam */
+        text-decoration: none;
+        /* menghilangkan underline pada link */
+        transition: transform 0.5s ease;
+        animation: zoom-out 15s ease forwards;
+      }
+    
+      a:hover {
+        color: #071ff2;
+    
+        transition: color 0.65s ease;
+    
+      }
+    
+      /* .list-inline-item:hover a i {
+        transform: scale(1.1);
+        transition: all 0.2s ease-in-out;
+      } */
+    
+      /* .list-unstyled li:hover {
+        transform: translateY(-5px);
+        transition: all 0.2s ease-in-out;
+      } */
+    
+      .bg-success.btn-success {
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+    
+      .bg-success {
+        background: linear-gradient(90deg, #44a839 0%, #32c718 100%);
+      }
+    
+      .btn-success {
+        background: linear-gradient(90deg, #44a839 0%, #32c718 100%);
+      }
+    
+      .card-img-custom {
+        height: 235px;
+        /* atur tinggi gambar sesuai kebutuhan */
+        width: 100%;
+      }
+
+
+
+
+
